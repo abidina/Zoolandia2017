@@ -6,8 +6,6 @@ namespace Zoolandia{
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
             Tiger Tony = new Tiger();
             Console.WriteLine(Tony.Roar());
         }

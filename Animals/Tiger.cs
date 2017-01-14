@@ -2,9 +2,9 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    class Tiger
+    public class Tiger : Animal
     {
-        public string name { get; set; }
+        //public string name { get; set; }
         
         public string Roar()
         {
