@@ -84,4 +84,7 @@
 -r:"C:\Users\abiga\.nuget\packages\System.Xml.XDocument\4.3.0\ref\netstandard1.3\System.Xml.XDocument.dll"
 "C:\Users\abiga\workspace\backend-stuff\zoolandia2\Program.cs"
 "C:\Users\abiga\workspace\backend-stuff\zoolandia2\Animals\Animal.cs"
+"C:\Users\abiga\workspace\backend-stuff\zoolandia2\Animals\Elephant.cs"
+"C:\Users\abiga\workspace\backend-stuff\zoolandia2\Animals\Parrot.cs"
 "C:\Users\abiga\workspace\backend-stuff\zoolandia2\Animals\Tiger.cs"
+"C:\Users\abiga\workspace\backend-stuff\zoolandia2\Animals\Wolf.cs"
