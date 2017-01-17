@@ -7,8 +7,10 @@ namespace Zoolandia{
         public static void Main(string[] args)
         {
             Tiger Tony = new Tiger();
+            Tony.sleep();
             Wolf GrayWolf = new Wolf();
             GrayWolf.name = "Gray Wolf";
+            GrayWolf.sleep();
             Elephant Ellie = new Elephant();
             Ellie.Height = 9;
             Parrot Iago = new Parrot();

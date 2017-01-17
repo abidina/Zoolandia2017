@@ -10,5 +10,10 @@ namespace Zoolandia.Animals
         {
             return "ROAR!!";
         }
+
+        public override void sleep() 
+        {
+            Console.WriteLine("The tiger dreams about eating people.");
+        }
     }
 }
