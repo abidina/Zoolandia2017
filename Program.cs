@@ -6,17 +6,17 @@ namespace Zoolandia{
     {
         public static void Main(string[] args)
         {
-            Tiger Tony = new Tiger();
+            Panthera Tony = new Panthera();
             Console.WriteLine(Tony.name);
-            Wolf GrayWolf = new Wolf();
+            Canis GrayWolf = new Canis();
             GrayWolf.name = "Gray Wolf";
             Console.WriteLine(GrayWolf.name);
             GrayWolf.sleep();
-            Elephant Ellie = new Elephant("Ellie");
-            Elephant Effie = new Elephant(10);
+            Elephas Ellie = new Elephas("Ellie");
+            Elephas Effie = new Elephas(10);
             Console.WriteLine(Ellie.name);
             Ellie.Height = 9;
-            Parrot Iago = new Parrot("Polly want a cracker? ", 3);
+            Psittacoidea Iago = new Psittacoidea("Polly want a cracker? ", 3);
             Iago.Color = "blue & gold";
             Iago.name = "Iago";
             Console.WriteLine(Iago.name);

@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    public class Wolf : Animal
+    public class Canis : Animal
     {
         public string Howl()
         {
