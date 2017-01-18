@@ -21,6 +21,9 @@ namespace Zoolandia{
             Iago.name = "Iago";
             Console.WriteLine(Iago.name);
             Console.WriteLine(Iago.Speak);
+            Troglodytes Chimp = new Troglodytes();
+            Console.WriteLine(Chimp.Eat(5)); //this isn't working the way i want it to
+            Chimp.walk();
 
             Console.WriteLine("I have a tiger who goes " + Tony.Roar() + " " + GrayWolf.name + " likes to howl: " + GrayWolf.Howl() + " My elephant " + Ellie.name  + " is " + Ellie.Height + " feet tall. Her sister Effie is " + Effie.Height + " feet tall. "  + Iago.name + " the parrot is " + Iago.Color + ".");
         }
