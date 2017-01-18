@@ -6,6 +6,16 @@ namespace Zoolandia.Animals
     {
         public int Height { get; set; }
 
+        public Elephant(string name)
+        {
+            this.name = name;
+        }
+
+        public Elephant(int height)
+        {
+            this.Height = height;
+        }
+
         public override void sleep()
         {
             Console.WriteLine("The elephant sleeps standing up!");
