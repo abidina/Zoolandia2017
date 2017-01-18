@@ -2,9 +2,19 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    public class Elephant : Animal
+    public class Elephas : Animal
     {
         public int Height { get; set; }
+
+        public Elephas(string name)
+        {
+            this.name = name;
+        }
+
+        public Elephas(int height)
+        {
+            this.Height = height;
+        }
 
         public override void sleep()
         {

@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Animals
 {
-    public class Wolf : Animal
+    public class Canis : Animal
     {
         public string Howl()
         {
@@ -14,9 +14,5 @@ namespace Zoolandia.Animals
             base.sleep();
         }
 
-        //public Wolf(Wolf.sleep())
-        //{
-        //    base.sleep();
-        //}
     }
 }

@@ -11,6 +11,11 @@ namespace Zoolandia.Animals
             this.name = "Lootnins";
         }
 
+        public virtual string Eat(int numberOfFoods) 
+        {
+            return "YUM!";
+        }
+
         public virtual void sleep()
         {
             Console.WriteLine("The animal is now sleeping. Zzzzzz... ");
