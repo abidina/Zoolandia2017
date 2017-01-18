@@ -9,7 +9,7 @@ namespace Zoolandia{
             Panthera Tony = new Panthera();
             Console.WriteLine(Tony.name);
             Canis GrayWolf = new Canis();
-            GrayWolf.name = "Gray Wolf";
+            GrayWolf.name = "Shaggydog";
             Console.WriteLine(GrayWolf.name);
             GrayWolf.sleep();
             Elephas Ellie = new Elephas("Ellie");

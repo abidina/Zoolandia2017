@@ -14,9 +14,5 @@ namespace Zoolandia.Animals
             base.sleep();
         }
 
-        //public Wolf(Wolf.sleep())
-        //{
-        //    base.sleep();
-        //}
     }
 }
